@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+}
+.primary-btn{
+    position: static;
+width: 244px;
+height: 65px;
+}
+/* hero bg style */
+.hero-img{position: absolute;
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;}
