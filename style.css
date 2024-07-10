@@ -9,7 +9,7 @@
 .hero-header{
     text-align: center;
 }
-.hero-description{text-align: center;}
+.hero-description{text-align: justify;}
 
 .primary-btn{
 display: flex;
@@ -41,6 +41,7 @@ color: white;
 
 .w-d-text{
     text-align: center;
+    
     padding:60px ;    
 }
 .w-d-sec-items{
