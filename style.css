@@ -77,3 +77,35 @@ color: white;
     border: 12px solid rgb(139, 118, 118);
     border-radius: 7px;
 }
+/* target section style start */
+.target-section{
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.target-items{
+    display: flex;
+    padding: 48px;
+    
+}
+.target-item-1{
+    text-align: left;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 30px;
+    margin-right: 10px;
+}
+.target-item-2{
+    text-align: left;
+    background-color:rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 30px;
+    margin-right: 10px;
+}
+.target-item-3{
+    text-align: left;
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 30px;
+    margin-right: 10px;
+}
