@@ -149,4 +149,12 @@ border-radius: 8px;
 font-weight: 700;
 font-size: 20px;
 }
+/* footer section style */
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 30px;
+}
 
