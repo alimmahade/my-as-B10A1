@@ -3,7 +3,7 @@
     display: flex; align-items: center; justify-content: center
 }
 .hero-parent{
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(assets/Hero-bg.png);
     
 }
 .hero-header{
@@ -112,7 +112,7 @@ color: white;
 
 /* support section style */
 .support-section{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(assets/handshake.jpg);
     background-position:cover;
     width: 1200px;
     margin: 0 auto;
