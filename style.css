@@ -109,3 +109,44 @@ color: white;
     padding: 30px;
     margin-right: 10px;
 }
+
+/* support section style */
+.support-section{
+    background-image: url(/assets/handshake.jpg);
+    background-position:cover;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.support-text{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.support-form{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.support-form div{
+padding-left: 50px;
+}
+.support-form div textarea{
+border: 2px solid black;
+position: static;
+width: 548px;
+height: 57px;
+border-radius: 8px;
+font-weight: 700;
+font-size: 20px;
+}
+.support-form div button{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+font-weight: 700;
+font-size: 20px;
+}
+
