@@ -1,16 +1,53 @@
-body{
-    margin: 0 auto;
+/* hero section styles */
+.hero-img{
+    display: flex; align-items: center; justify-content: center
 }
+.hero-parent{
+    background-image: url(/assets/Hero-bg.png);
+    
+}
+.hero-header{
+    text-align: center;
+}
+.hero-description{text-align: center;}
+
 .primary-btn{
-    position: static;
-width: 244px;
-height: 65px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
 }
-/* hero bg style */
-.hero-img{position: absolute;
-width: 1440px;
-height: 652px;
-left: 0;
-right: 0;
-top: 131px;
-bottom: 4462px;}
+.primary-btn>a>button{
+position: static;
+width: 160px;
+height: auto;
+padding: 21px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: white;
+
+}
+
+/* hero section Style end */
+
+/* w-d-section-styles */
+.w-d-section{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.w-d-text{
+    text-align: center;
+    padding:60px ;    
+}
+.w-d-sec-items{
+    margin: 0 auto;
+    }
+.item-1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding: 48px;
+}
