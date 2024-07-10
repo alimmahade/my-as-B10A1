@@ -31,10 +31,12 @@ color: white;
 
 /* hero section Style end */
 
-/* w-d-section-styles */
+/* w-d-section-styles start */
 .w-d-section{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .w-d-text{
@@ -43,6 +45,7 @@ color: white;
 }
 .w-d-sec-items{
     margin: 0 auto;
+    background-color: azure;
     }
 .item-1{
     display: flex;
@@ -50,4 +53,27 @@ color: white;
     background-color: rgb(255, 255, 255);
     border-radius: 16px;
     padding: 48px;
+    gap: 50px;
+    text-align: justify;
+}
+
+.right-item{
+    width: 50%;
+    height: auto;
+}
+.left-item{
+    width: 50%;
+    height: auto;
+}
+
+/* w-d-section-styles end---- */
+
+.inspiration-section{
+    text-align: center ;
+    width: 1200px;
+    margin: 0 auto;
+}
+.inspiration-section iframe{
+    border: 12px solid rgb(139, 118, 118);
+    border-radius: 7px;
 }
